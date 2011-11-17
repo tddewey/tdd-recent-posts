@@ -58,7 +58,7 @@ function tdd_rp_install() {
 add_action( 'widgets_init', 'tdd_rp_register_widget' );
 
 function tdd_rp_register_widget() {
-	register_widget( 'TDD_RP_Widget' );
+	register_widget( 'tdd_rp_widget' );
 }
 
 
