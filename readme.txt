@@ -51,10 +51,11 @@ Do your normal plugin installation routine. There are no settings, just the opti
 = Can I set it to display pages as well as posts? =
 
 Yes -- actually, any post type or any query you want -- although it is not in the admin menu.
+
 1. Open tddrecentposts.php
-1. Around line 124, you'll find the query arguments.
-1. Add (or remove) query arguments from the array as discussed here: http://codex.wordpress.org/Function_Reference/query_posts
-1. Or, request that I add the feature in the next version.
+2. Around line 124, you'll find the query arguments.
+3. Add (or remove) query arguments from the array as discussed here: http://codex.wordpress.org/Function_Reference/query_posts
+4. Or, request that I add the feature in the next version.
 
 = ________ screwed up OR _________ isn't working... =
 
